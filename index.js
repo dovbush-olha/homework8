@@ -14,6 +14,9 @@ function isValidEmail(email) {
   return regexp.test(email);
 }
 
+//task3
+const regex1 = /d(b+)(d)/i;
+const arr1 = regex1.exec("cdbBdbsbz");
 //task4
 function replaceWords(str) {
   return str.replace(/(\w+) (\w+)/i, "$2, $1");
